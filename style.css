@@ -1,0 +1,300 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ /* border:solid */
+
+}
+
+
+.對打機{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 375px;
+  height: 320px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FD9C36), color-stop(80%, #FCBE5C));
+  background: linear-gradient(to bottom, #FD9C36 0%, #FCBE5C 80%);
+  border-radius:150px;
+  box-shadow:0px 2px 5px rgba(0,0,0,.3);
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.white1 {
+  position: fixed;
+  height: 90px;
+  width: 90px;
+  background-color: white;
+  border-radius:0 0 90% 0;
+}
+.white2 {
+   position: fixed;
+  height: 90px;
+  width: 90px;
+  background-color: white;
+  right: 0;
+  border-radius:0 0 0 90%;
+}
+.white3 {
+  position: fixed;
+  height: 90px;
+  width: 90px;
+  bottom: 0;
+  background-color: white;
+  border-radius:0 90% 0 0;
+}
+.white4 {
+  position: fixed;
+  height: 90px;
+  width: 90px;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  border-radius:90% 0 0 0;
+}
+.monitorbg{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius:50%;
+  left: 112px;
+  top: 75px;
+  background:url("https://inews.gtimg.com/newsapp_bt/0/3116293003/641")no-repeat center ;
+  background-size:400px 400px;
+}
+.monitor{
+  position: absolute;
+  height: 112px;
+  width: 112px;
+  border-radius:15%;
+  left: 18px;
+  top: 20px;
+   background-color: white;
+   background:url("https://i.imgur.com/zwtpzuM.jpg")no-repeat center ;
+    background-position: center center;
+    background-size:130px 130px;
+   
+    max-height: 100%;  
+    max-width: 100%;    
+    margin: auto;
+   -webkit-animation-name: identifier3 ;
+           animation-name: identifier3 ;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: alternate;
+          animation-duration: alternate;
+}
+.button1{
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 40%;
+  left: 5%;
+  border-radius:50%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #879fed), color-stop(80%, #3a64f0));
+  background: linear-gradient(to bottom, #879fed 30%, #3a64f0 80%);
+  box-shadow:0px 2px 5px rgba(0,0,0,.3);
+}
+.button1:hover{
+  -webkit-transform:scale(0.9);
+          transform:scale(0.9)
+}
+.button2:hover{
+  -webkit-transform:scale(0.9);
+          transform:scale(0.9)
+}
+.button3:hover{
+  -webkit-transform:scale(0.9);
+          transform:scale(0.9)
+}
+
+.button2{
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  top: 30%;
+  right: 5%;
+  border-radius:50% 50% 50% 50%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #879fed), color-stop(80%, #3a64f0));
+  background: linear-gradient(to bottom, #879fed 30%, #3a64f0 80%);
+  box-shadow:0px 2px 5px rgba(0,0,0,.3);
+}
+.button3{
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  bottom: 30%;
+  right: 5%;
+  border-radius:50% 50% 50% 50%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #879fed), color-stop(80%, #3a64f0));
+  background: linear-gradient(to bottom, #879fed 30%, #3a64f0 80%);
+  box-shadow:0px 2px 5px rgba(0,0,0,.3);
+}
+.jp1{
+  font-size:36px;
+  color:rgba(0,0,0,0.5);
+  -webkit-animation-name: identifier1 ;
+          animation-name: identifier1 ;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: alternate;
+          animation-duration: alternate;
+}
+.jp2{
+  font-size:18px;
+
+  display: -webkit-box;
+
+  display: flex;
+  margin:0;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  right: 0;
+  -webkit-animation-name: identifier2 ;
+          animation-name: identifier2 ;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: alternate;
+          animation-duration: alternate;
+}
+.eng1{
+  font-size:136px;
+  color:rgba(0,0,0,0.5);
+  -webkit-animation-name: identifier1 ;
+          animation-name: identifier1 ;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: alternate;
+          animation-duration: alternate;
+  font-family: 'Roboto', sans-serif;
+}
+.eng2{
+  font-size:36px;
+
+  display: -webkit-box;
+
+  display: flex;
+  margin:0;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  right: 0;
+  -webkit-animation-name: identifier2 ;
+          animation-name: identifier2 ;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: alternate;
+          animation-duration: alternate;
+  font-family: 'Roboto', sans-serif;
+}
+.jp3{
+  font-size:36px;
+
+  display: -webkit-box;
+
+  display: flex;
+  margin:0;
+  -webkit-box-pack: center;
+          justify-content: center;
+  right: 0;
+  -webkit-animation-name: identifier2 ;
+          animation-name: identifier2 ;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: alternate;
+          animation-duration: alternate;
+  font-family: 'Roboto', sans-serif;
+}
+
+@-webkit-keyframes identifier1 {
+  0%{
+    left: 0px;
+  }
+  100%{
+  position:relative;
+  left:800px;
+  }
+}
+
+@keyframes identifier1 {
+  0%{
+    left: 0px;
+  }
+  100%{
+  position:relative;
+  left:800px;
+  }
+}
+@-webkit-keyframes identifier2 {
+  0%{
+    right: 0;
+    
+  }
+  100%{
+  position:relative;
+  right: 800px;
+  }
+}
+@keyframes identifier2 {
+  0%{
+    right: 0;
+    
+  }
+  100%{
+  position:relative;
+  right: 800px;
+  }
+}
+@-webkit-keyframes identifier3 {
+  0%{
+    background:url("https://i.imgur.com/zwtpzuM.jpg")no-repeat center ;
+    background-position: center center;
+    background-size:130px 130px;
+   
+    max-height: 100%;  
+    max-width: 100%;    
+    margin: auto;
+    
+  }
+  100%{
+  background:url("https://i.imgur.com/66eyhxZ.jpg")no-repeat center ;
+    background-position: center center;
+    background-size:130px 130px;
+   
+    max-height: 100%;  
+    max-width: 100%;    
+    margin: auto;
+  }
+}
+@keyframes identifier3 {
+  0%{
+    background:url("https://i.imgur.com/zwtpzuM.jpg")no-repeat center ;
+    background-position: center center;
+    background-size:130px 130px;
+   
+    max-height: 100%;  
+    max-width: 100%;    
+    margin: auto;
+    
+  }
+  100%{
+  background:url("https://i.imgur.com/66eyhxZ.jpg")no-repeat center ;
+    background-position: center center;
+    background-size:130px 130px;
+   
+    max-height: 100%;  
+    max-width: 100%;    
+    margin: auto;
+  }
+}
